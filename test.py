@@ -15,11 +15,21 @@ def test():
         "path/to/file/7",
         "path/to/file/8",
         "path/to/file/9",
-        "path/to/file/10"
+        "path/to/file/10",
+        "path/to/file/11",
+        "path/to/file/12",
+        "path/to/file/13",
+        "path/to/file/14",
+        "path/to/file/15",
+        "path/to/file/16",
+        "path/to/file/17",
+        "path/to/file/18",
+        "path/to/file/19",
+        "path/to/file/20",
     ]
 
     # Results of the function
-    result = method.splitListIntoVariableParts(testVariable, 5)
+    result = method.splitListIntoVariableParts(testVariable, 4.6)
 
     # Printing groups of paths
     counter = 0
